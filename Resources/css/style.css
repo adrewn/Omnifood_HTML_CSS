@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html,
 body {
   color: rgb(107, 103, 103);
@@ -182,7 +181,7 @@ header {
   margin-top: 20px;
 }
 .logo-black {
-  display: hidden;
+  display: none;
   height: 50px;
   width: auto;
   float: left;
@@ -533,4 +532,26 @@ footer p {
   color: #888;
   text-align: center;
   margin: 20px;
+}
+/*------------------------------------------------------*/
+/*ANIMATION*/
+/*------------------------------------------------------*/
+.js--wp-1 {
+  opacity: 0;
+}
+.js--wp-1.animated {
+  opacity: 1;
+}
+/*------------------------------------------------------*/
+/*MOBILE NAVIGATION*/
+/*------------------------------------------------------*/
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #fff;
 }
